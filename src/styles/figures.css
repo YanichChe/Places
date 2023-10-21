@@ -1,0 +1,48 @@
+#figure{
+    box-sizing: border-box;
+    width: 100vh;
+    height: 50vh;
+    display: block;
+    overflow: hidden;
+    transform: rotate(11deg);
+    z-index: 0;
+    border-radius: 100%;
+    position: absolute;
+    border: 1px solid #FFFFFF;
+}
+
+#figure1{
+    box-sizing: border-box;
+    width: 100vh;
+    height: 50vh;
+    display: block;
+    overflow: hidden;
+    transform: rotate(-12deg);
+    z-index: 0;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+}
+
+#figure2{
+    box-sizing: border-box;
+    width: 100vh;
+    height: 50vh;
+    display: block;
+    overflow: hidden;
+    transform: rotate(144deg);
+    z-index: 0;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+}

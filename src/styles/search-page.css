@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.list-container {
+    width: 70%;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.map-container{
+    padding: 1%;
+    align-content: center;
+    width: 90%;
+    height: 70vh;
+}
+
+.container_ {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-color: #fffc74;
+}
+
+.block1 {
+    padding: 20px;
+    flex: 1; /* Блок 1 занимает половину ширины экрана */
+}
+
+.block2 {
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали в центре */
+    align-items: center; /* Выравнивание по вертикали в центре */
+    flex: 1; /* Блок 2 занимает половину ширины экрана */
+}
+
+.rounded-input {
+    padding:10px;
+    margin: 10px;
+    width:50%;
+    border-radius:14px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+:focus{outline: none;}

@@ -1,0 +1,32 @@
+.app-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.content {
+    flex: 1; /* Это разделит доступное пространство между дочерними компонентами */
+    display: flex;
+    flex-direction: column; /* Столбцовая верстка */
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.normal {
+    font-style: normal;
+    font-variant: normal;
+}
+.small-caps {
+    font-variant: small-caps;
+}
