@@ -3,15 +3,13 @@ import axios from "axios";
 export default class WeatherService {
     static async getWeather(lat, lng) {
         const params = {
-            lat: lat,
-            lon: lng
+            key: '5e34770e0051422c8f492714232110',
+            q: lat + ',' + lng,
+            lang:'ru'
         };
 
-        return axios.get('/v2/informers', {
+        return axios.get('v1/current.json', {
             params: params,
-            headers: {
-                'X-Yandex-API-Key': '9d07b782-6320-4d0b-a2ba-8342130dc03f'
-            }
         })
     }
 }

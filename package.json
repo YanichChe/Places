@@ -1,5 +1,5 @@
 {
-  "proxy": "https://api.weather.yandex.ru",
+  "proxy": "http://api.weatherapi.com/",
   "name": "untitled",
   "version": "0.1.0",
   "private": true,
