@@ -1,17 +1,18 @@
 import './App.css';
 import React from 'react';
-import Home from "./pages/Home";
+import HomePage from "./pages/HomePage";
 import SearchPage from "./pages/SearchPage";
+import InfoPage from "./pages/InfoPage";
 
 function App() {
     return (
         <div className="app-container">
             <div className="content">
-                <Home/>
+                <HomePage/>
                 <SearchPage/>
+                <InfoPage/>
             </div>
         </div>
     );
 }
-
 export default App;

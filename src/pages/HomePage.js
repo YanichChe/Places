@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/figures.css'
 import '../styles/home-page.css'
 
-const Home = () => {
+const HomePage = () => {
 
     const textStyles = {
         fontFamily: "Silkscreen",
@@ -21,4 +21,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default HomePage;
