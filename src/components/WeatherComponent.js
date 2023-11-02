@@ -34,10 +34,9 @@ const WeatherComponent = observer((props) => {
         <div className='main'>
         <div className="top">
             <p className="header">{weather.location.name}
-                <img
+                <img className='img'
                     src={weather.current.condition.icon}
                     alt="Погодная иконка"
-                    style={{marginLeft: '10px'}}
                 />
             </p>
         </div>

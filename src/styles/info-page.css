@@ -8,20 +8,21 @@
 }
 
 .main{
-    width: 20vw;
-    height: 25vh;
+    width: min-content;
+    height: min-content;
     border-radius: 20px;
     background-color: #ffffff;
 }
 
-.top{
-    height: 70px;
+.main .top{
+    width: 100%;
+    height: max-content;
     background-color: #fff100;
     color: #000000;
     padding: 10px;
     border-radius: 20px 20px 0 0;
     font-family: 'Recursive', sans-serif;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
 }
 
@@ -31,6 +32,8 @@
     margin: 10px 0px 0px 10px;
     font-size: 25px;
     border-radius: 20px 20px 0 0;
+    display: inline-block;
+    width: 100%;
     font-family: 'Recursive', sans-serif;
 }
 
@@ -67,4 +70,9 @@
     font-family: 'Recursive', sans-serif;
     font-size: 24px;
     font-weight: 600;
+}
+
+.img {
+    height: auto;
+    margin-left: 10px;
 }
